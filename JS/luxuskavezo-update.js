@@ -1,9 +1,3 @@
-/*1. Luxus kávézó?
-Egészítsed ki a kávékról tárolt adataidat az árukkal 
-azaz egy csésze az adott kavéból mennyibe kerül a vendégnek.
-Ezután egy új menüponttal kiegészítve írd ki, hogy melyik 
-a legdrágább és melyik a legolcsóbb kávé, valamint jelenítsd meg az átlagárat.*/
-
 // a kávé tömböm:
 var kavek = [{
         nev: 'Alma',
@@ -24,7 +18,7 @@ var kavek = [{
     {
         nev: 'Colos',
         orszag: 'BRA',
-        erosseg: 8,
+        erosseg: 2,
         keszlet: 8,
         ar: 2900,
         beszerz: 1600,
@@ -40,7 +34,7 @@ var kavek = [{
     {
         nev: 'Gábor',
         orszag: 'CHI',
-        erosseg: 9,
+        erosseg: 4,
         keszlet: 0,
         ar: 4500,
         beszerz: 2800,
@@ -48,7 +42,7 @@ var kavek = [{
     {
         nev: 'Habos',
         orszag: 'CHI',
-        erosseg: 9,
+        erosseg: 7,
         keszlet: 11,
         ar: 2800,
         beszerz: 1800,
