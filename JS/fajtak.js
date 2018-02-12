@@ -32,7 +32,7 @@ var kavek = [{
     },
     {
         nev: 'Gábor',
-        orszag: 'CHI',
+        orszag: 'HU',
         erosseg: 4,
         keszlet: 0,
         ar: 4500,
@@ -48,12 +48,20 @@ var kavek = [{
     },
     {
         nev: 'Sor',
-        orszag: 'CHI',
+        orszag: 'RO',
         erosseg: 9,
         keszlet: 3,
         ar: 2300,
         beszerz: 1600,
     },
+    {
+        nev: 'Kropor',
+        orszag: 'HU',
+        erosseg: 5,
+        keszlet: 10,
+        ar: 8000,
+        beszerz: 5600,
+    }
 ];
 
 // listázzuk ki a kávékat erősség szerint
