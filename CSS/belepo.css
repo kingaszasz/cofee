@@ -1,0 +1,26 @@
+body {
+    background: #6a9396
+}
+
+div.container {
+    background: #c1eef1;
+    width: 400px;
+    height: 300px;
+    padding: 30px 50px;
+    border-radius: 10px;
+    font: bold 25px/45px Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 20px auto;
+}
+
+div.container label {
+    font-size: 20px;
+}
+
+input {
+    width: 250px;
+    border: 0;
+    border-radius: 4px;
+    padding: 5px;
+    color: #0f6d74;
+}

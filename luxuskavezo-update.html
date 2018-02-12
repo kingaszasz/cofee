@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/luxuskavezo.css" type="text/css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <fieldset>
+        <legend>Kereső</legend>
+        <label for="keres">Írd be milyen kávét keresel: </label>
+        <input type="text" name="kave" id="kave">
+        <input type="button" value="keres" onclick="keres()">
+
+        <p id="kereses-eredmeny"></p>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Árak</legend>
+        <p>Kávéink átlagára:
+            <span id="atlag"></span>
+        </p>
+        <hr>
+        <p>Legkedvezőbb árú kávénk:</p>
+        <p id="min"></p>
+        <hr>
+        <p>Legértékesebb kávénk:</p>
+        <p id="max"></p>
+    </fieldset>
+    <br>
+    <fieldset>
+        <a href="admin.html">Admin felület</a>
+    </fieldset>
+
+    <script src="js/luxuskavezo.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/luxuskavezo.css" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <fieldset>
+        <legend>Hitelesítés</legend>
+        <label for="pass">Kérem adja meg a jelszót: </label>
+        <input type="password" name="pass" id="pass" placeholder="****">
+        <input type="button" value="OK" onclick="ellenoriz()">
+        <p id="hietelesitesEredmeny"></p>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend> Leltár</legend>
+        <p>Aktuális készlet mennyisége:</p>
+        <p id="keszlet-mennyiseg"></p>
+        <p>Aktuális készlet mennyisége:</p>
+        <p id="keszlet-ertek"></p>
+        <p>Készlethiány van az alábbiakból:</p>
+        <p id="rendelj"></p>
+    </fieldset>
+    <br>
+    <nav>
+        <a href="luxuskavezo.html"> Vissza a fő oldalra</a>
+    </nav>
+    <script src="js/admin.js"></script>
+    <script src="js/luxuskavezo.js"></script>
+</body>
+
+</html>
